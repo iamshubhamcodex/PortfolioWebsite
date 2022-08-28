@@ -1,0 +1,44 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 6rem;
+  width: 100%;
+  padding: 0 6rem;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 0px 10px 1.2rem -1rem rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar .logo {
+  position: relative;
+  height: 100%;
+}
+.navbar .logo .logoImg {
+  height: 100%;
+}
+
+.navItems {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navItem {
+  color: black;
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  text-align: center;
+  cursor: pointer;
+}
+.navItem:hover {
+  color: #00c2ff;
+  text-decoration: underline;
+}
