@@ -8,9 +8,8 @@ const NavItem = (props) => {
     <>
       <Link
         activeClass="active"
-        spy={true}
-        // smooth={true}
-        offset={-75}
+        // spy={true}
+        offset={-70}
         duration={500}
         to={props.name.toLowerCase()}
         className="navItem"
@@ -24,16 +23,16 @@ const NavItem = (props) => {
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="logo">
+      <Link className="logo" offset={-80} duration={500} to="home">
         <img src={Logo} alt="Logo" className="logoImg" />
-      </div>
+      </Link>
       <div className="navItems">
         <NavItem name="Home" />
         <NavItem name="About" />
         <NavItem name="Skills" />
         <NavItem name="Work" />
         <NavItem name="Experience" />
-        <NavItem name="Contact Me" />
+        <NavItem name="Contact" />
       </div>
     </div>
   );

@@ -16,6 +16,7 @@
 .navbar .logo {
   position: relative;
   height: 100%;
+  cursor: pointer;
 }
 .navbar .logo .logoImg {
   height: 100%;
@@ -38,7 +39,8 @@
   text-align: center;
   cursor: pointer;
 }
-.navItem:hover {
+.navItem:hover,
+.navItem.active {
   color: #00c2ff;
   text-decoration: underline;
 }

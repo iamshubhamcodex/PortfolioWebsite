@@ -1,0 +1,89 @@
+.contact {
+  padding: 6rem 8rem 0 30rem;
+  height: calc(100vh - 6rem);
+  position: relative;
+  transition: all 0.3s linear;
+}
+.contact h1 {
+  color: #ff7900;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+.contact .cont {
+  margin-left: 25rem;
+  font-family: "Inter", sans-serif;
+}
+.contact .cont .p {
+  font-size: 4rem;
+}
+.contact .cont .p .pro {
+  color: #0c0080;
+}
+.contact .cont .p .hire {
+  color: #ff7900;
+}
+.contact .cont .ids {
+  margin-top: 3rem;
+  padding-left: 10rem;
+  font-size: 2.7rem;
+  color: #0c0080;
+}
+.contact .cont .ids .email span {
+  font-size: 3.5rem;
+  color: #ff7900;
+}
+.contact .cont .ids .wame span {
+  font-size: 3.5rem;
+  color: #ff7900;
+}
+.contact .img {
+  position: absolute;
+  z-index: -10;
+  left: 5rem;
+  bottom: 10rem;
+  width: 35%;
+}
+.contact .img img {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 1400px) {
+  .contact {
+    padding: 4rem 6rem 0 25rem;
+    height: 80vh;
+  }
+  .contact h1 {
+    font-size: 5.7rem;
+    margin-bottom: 2rem;
+  }
+  .contact .cont {
+    margin-left: 22rem;
+  }
+  .contact .cont .p {
+    font-size: 3.7rem;
+  }
+  .contact .img {
+    bottom: 20vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact {
+    height: 70vh;
+  }
+  .contact h1 {
+    font-size: 5.2rem;
+  }
+  .contact .cont {
+    margin-left: 10rem;
+  }
+  .contact .cont .p {
+    font-size: 3.2rem;
+  }
+  .contact .img {
+    bottom: 15vh;
+  }
+  .contact .cont .ids {
+    padding-left: 5rem;
+  }
+}

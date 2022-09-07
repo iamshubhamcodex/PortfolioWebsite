@@ -1,0 +1,82 @@
+.about {
+  position: relative;
+  max-height: max-content;
+  height: calc(100vh - 6rem);
+  background-image: url("../Assets/aboutBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s linear;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.about .aboutMe {
+  padding: 0 2rem;
+  width: 45%;
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s linear;
+}
+.about .aboutMe h1 {
+  color: #ff7900;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+.about .aboutMe h3 {
+  color: #0c0080;
+  font-size: 4rem;
+}
+.about .aboutMe p {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+.about .aboutMe p .space {
+  margin-right: 10rem;
+}
+.about .aboutMe p .thank {
+  float: right;
+  margin-top: 3.5rem;
+  color: #00c2ff;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1400px) {
+  .about {
+    background-size: 90%;
+    background-position-y: center;
+    height: 75vh;
+  }
+  .aboutMe {
+    width: 50% !important;
+  }
+}
+.down1 {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 7rem;
+  font-weight: 800;
+  left: 50%;
+  color: #5dd3f9;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about {
+    background-size: 80%;
+    height: 60vh;
+  }
+  .aboutMe {
+    width: 55% !important;
+  }
+  .about .aboutMe h1 {
+    font-size: 4.8rem;
+    margin-bottom: 0.7rem;
+  }
+  .about .aboutMe h3 {
+    font-size: 3.7rem;
+  }
+  .about .aboutMe p {
+    margin: 1rem 0 0 0.7rem;
+    font-size: 2rem;
+  }
+}

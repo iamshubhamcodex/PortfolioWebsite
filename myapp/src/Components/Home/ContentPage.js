@@ -41,17 +41,15 @@ const ContentPage = (props) => {
             >
               <i className="fa-brands fa-instagram"></i>
             </a>
-            {/* <div className="icon"></div>
-          <div className="icon"></div> */}
           </div>
         </div>
         <div className="avtar">
           <img src={avatar} alt="Hello" />
         </div>
+        <Link to="about" offset={-70} className="down">
+          <i className="fa-solid fa-chevron-down"></i>
+        </Link>
       </div>
-      <Link to="about" offset={-75} className="down">
-        <i className="fa-solid fa-chevron-down"></i>
-      </Link>
     </>
   );
 };
