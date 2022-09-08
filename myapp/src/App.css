@@ -15,14 +15,13 @@ html {
     font-size: 64%;
   }
 }
-@media only screen and (max-width: 1324px) {
+@media only screen and (max-width: 1400px) {
   html {
-    font-size: 52%;
+    font-size: 55%;
   }
 }
-
 @media only screen and (max-width: 1024px) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
 }

@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 1024px) {
   .contact {
-    height: 70vh;
+    height: 65vh;
   }
   .contact h1 {
     font-size: 5.2rem;
@@ -81,10 +81,10 @@
     margin-left: 10rem;
   }
   .contact .cont .p {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   .contact .img {
-    bottom: 15vh;
+    bottom: 20vh;
   }
   .contact .cont .ids {
     padding-left: 5rem;
