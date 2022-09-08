@@ -9,7 +9,7 @@ const NavItem = (props) => {
       <Link
         activeClass="active"
         // spy={true}
-        offset={-70}
+        offset={-55}
         duration={500}
         to={props.name.toLowerCase()}
         className="navItem"

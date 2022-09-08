@@ -9,7 +9,8 @@ const Contact = (props) => {
         <h1>Contact Me</h1>
         <div className="cont">
           <p className="p">
-            If you find me capable of letting me work with you or in your
+            Please let me <span className="know">Know</span> if you find me
+            capable of letting me work with you or in your
             <span className="pro"> Project </span>, You can
             <span className="hire"> Hire </span>me by contacting me through:-
           </p>

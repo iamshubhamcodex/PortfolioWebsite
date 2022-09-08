@@ -28,6 +28,9 @@
   font-size: 2.7rem;
   color: #0c0080;
 }
+.contact .cont .p span {
+  color: #00c2ff;
+}
 .contact .cont .ids .email span {
   font-size: 3.5rem;
   color: #ff7900;
