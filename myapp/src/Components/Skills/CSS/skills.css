@@ -1,6 +1,6 @@
 .skills {
   position: relative;
-  background-image: url("../Assets/skillBg.png");
+  /* background-image: url("../Assets/skillBg.png"); */
   height: calc(100vh - 6rem);
   background-size: cover;
   padding: 5.7rem 25rem;

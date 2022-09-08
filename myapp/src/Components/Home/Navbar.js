@@ -1,6 +1,6 @@
 import React from "react";
 import "../Home/CSS/Navbar.css";
-import Logo from "../Home/Assets/logo.png";
+// import Logo from "../Home/Assets/logo.png";
 import { Link } from "react-scroll";
 
 const NavItem = (props) => {
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <Link className="logo" offset={-80} duration={500} to="home">
-        <img src={Logo} alt="Logo" className="logoImg" />
+        {/* <img src={Logo} alt="Logo" className="logoImg" /> */}
       </Link>
       <div className="navItems">
         <NavItem name="Home" />

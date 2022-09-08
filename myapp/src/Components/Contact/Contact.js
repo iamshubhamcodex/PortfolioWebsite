@@ -1,6 +1,6 @@
 import React from "react";
 import "../Contact/CSS/contact.css";
-import ContactBg from "../Contact/Assets/contactBg.png";
+// import ContactBg from "../Contact/Assets/contactBg.png";
 
 const Contact = (props) => {
   return (
@@ -24,7 +24,7 @@ const Contact = (props) => {
           </div>
         </div>
         <div className="img">
-          <img src={ContactBg} alt="Contact Background" />
+          {/* <img src={ContactBg} alt="Contact Background" /> */}
         </div>
       </div>
     </>

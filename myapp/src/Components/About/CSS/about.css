@@ -2,7 +2,7 @@
   position: relative;
   max-height: max-content;
   height: calc(100vh - 6rem);
-  background-image: url("../Assets/aboutBg.png");
+  /* background-image: url("../Assets/aboutBg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.3s linear;

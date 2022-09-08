@@ -1,6 +1,6 @@
 import React from "react";
 import "../Home/CSS/content.css";
-import avatar from "../Home/Assets/Avtar.png";
+// import avatar from "../Home/Assets/Avtar.png";
 import { Link } from "react-scroll";
 
 const ContentPage = (props) => {
@@ -43,9 +43,7 @@ const ContentPage = (props) => {
             </a>
           </div>
         </div>
-        <div className="avtar">
-          <img src={avatar} alt="Hello" />
-        </div>
+        <div className="avtar">{/* <img src={avatar} alt="Hello" /> */}</div>
         <Link to="about" offset={-70} className="down">
           <i className="fa-solid fa-chevron-down"></i>
         </Link>
